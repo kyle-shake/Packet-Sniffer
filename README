@@ -1,0 +1,42 @@
+*******************************************
+
+Project 1 - CS 371
+
+PACKET SNIFFER
+
+*******************************************
+
+About
+
+*******************************************
+
+This program uses the Libpcap library to 
+"sniff" incoming and outgoing TCP and UDP 
+packets from the local host.
+
+*******************************************
+
+Usage
+
+*******************************************
+
+Compile the program:
+
+>>gcc -Wall -pedantic sniffer2_1.c -lpcap
+
+Run the program:
+
+>> ./a.out
+
+*******************************************
+
+Results from the Packet Sniffer are found
+in the following files created by the
+program and put in the working directory
+
+--datapersec.txt
+--pktspersec.txt
+--ipaddress.txt
+--ports.txt
+--tcpvsudp.txt
+*******************************************
